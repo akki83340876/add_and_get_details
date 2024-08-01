@@ -5,7 +5,7 @@ const Modal = ({ handelClose }) => {
   const[desc,setDesc]=useState("")
   const[price,setPrice] = useState(0)
   const handelClick=async()=>{
-    const url= "http://localhost:7878/create_product"
+    const url= "https://add-and-get-details.onrender.com/create_product"
     const response= await axios.post(url,{
       name:name,
       description:desc,
