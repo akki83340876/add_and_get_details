@@ -1,0 +1,44 @@
+
+---------------------------Backend side---------------------------
+
+for run this code you must follow this process
+
+1. cd api --> npm istall --> node server.js 
+
+Product API links :-
+
+-> Add product api link
+
+url : http://localhost:7878/add_product
+method : post
+data : in the form of req.body with post method   
+
+
+-----------------------------------------------------------
+
+-> fetch api link
+
+url : http://localhost:3001/get_all_products
+method : get
+
+data : run this url with get methode all data will reterived
+
+fields : key 
+value : data to be fetched
+
+---------------------------Frontend side---------------------------
+
+for run this code you must follow this process
+
+1. cd frontend --> npm istall --> npm run dev 
+
+ Product add :-
+
+-> with the add_product button product will be add this is the first page 
+
+ fetch product :-
+
+-> according to added product fetchlist will shown on second page 
+  
+
+
