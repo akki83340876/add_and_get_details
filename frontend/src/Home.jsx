@@ -17,7 +17,7 @@ const Home = () => {
   };
   useEffect(() => {
     const getAPIData = async () => {
-      const url = "http://localhost:7878/get_all_products";
+      const url = "https://add-and-get-details.onrender.com/get_all_products";
       try {
         const response = await axios.get(url);
         setData(response?.data?.data); 
